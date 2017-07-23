@@ -37,10 +37,15 @@
         });
     }
     </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
     <script type='text/javascript' src='/BingMapsCredentials.js'></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
+
+    <fieldset style="width:600px;margin-top:10px;">
+        <legend>GeoJson Write Sample</legend>
+        This sample shows how generate GeoJSON from n array of Bing Maps shapes.
+    </fieldset>
 </body>
 </html>

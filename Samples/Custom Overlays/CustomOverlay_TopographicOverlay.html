@@ -40,7 +40,12 @@
 
             //Update the position of the image when the view changes.
             Microsoft.Maps.Events.addHandler(map, 'viewchange', function () {
-                repositionOverlay();
+                if (map.getMapTypeId() === Microsoft.Maps.MapTypeId.streetside) {
+                    img.style.display = 'none';
+                } else {
+                    img.style.display = '';
+                    repositionOverlay();
+                }
             });
         };
 
@@ -67,10 +72,15 @@
         map.layers.insert(overlay);
     }
     </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
     <script type='text/javascript' src='/BingMapsCredentials.js'></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
+
+    <fieldset style="width:600px;margin-top:10px;">
+        <legend>Custom Overlay - Topographic Overlay Sample</legend>
+        This sample shows how to create a Topographic Overlay, also commonly known to as an image overlay, using the Custom Overlay class. 
+    </fieldset>
 </body>
 </html>

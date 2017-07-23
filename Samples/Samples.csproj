@@ -61,12 +61,18 @@
     <Content Include="Clustering\Clustering_ZoomIntoCluster.html" />
     <Content Include="Common\images\endPin.png" />
     <Content Include="Common\images\startPin.png" />
+    <Content Include="Common\images\loadingIcon.gif" />
+    <Content Include="Common\images\us_counties.png" />
+    <Content Include="Common\scripts\FileSaver.js" />
     <Content Include="Contour Layer\ContourLayer_Basic.html" />
     <Content Include="Contour Layer\ContourLayer_FromGeoJSON.html" />
-    <Content Include="Contour Layer\ContourLayer_Cirlces.html" />
+    <Content Include="Contour Layer\ContourLayer_Circles.html" />
+    <Content Include="Custom Map Styles\Set Custom Map Style.html" />
+    <Content Include="Custom Map Styles\Load Map with Custom Style.html" />
+    <Content Include="Custom Map Styles\Simple Style Editor.html" />
     <Content Include="Custom Overlays\CustomOverlay_BasicOverlay.html" />
-    <Content Include="Custom Overlays\CanvasLayer\CustomOverlay_CanvasLayer.html" />
-    <Content Include="Custom Overlays\HtmlPushpinLayer\CustomOverlay_HtmlPushpinLayer.html" />
+    <Content Include="Custom Overlays\CanvasLayer\Canvas Layer.html" />
+    <Content Include="Custom Overlays\HtmlPushpinLayer\Html Pushpin Layer.html" />
     <Content Include="Custom Overlays\CustomOverlay_TopographicOverlay.html" />
     <Content Include="Data Binning Layers\DataBinning_Bivariate.html" />
     <Content Include="Data Binning Layers\DataBinning_Options.html" />
@@ -74,21 +80,27 @@
     <Content Include="Data Binning Layers\DataBinning_FeatureTester.html" />
     <Content Include="Data Binning Layers\DataBinning_GradientColorScale.html" />
     <Content Include="Default.aspx" />
+    <Content Include="Directions\Get Dragged Route Waypoints.html" />
+    <Content Include="Directions\Simple Custom Directions Input Panel.html" />
     <Content Include="Directions\Directions_Basic.html" />
     <Content Include="Directions\Directions_Events.html" />
     <Content Include="Directions\Directions_InputPanel.html" />
     <Content Include="Directions\Directions_Transit.html" />
     <Content Include="Directions\Directions_WithOptions.html" />
+    <Content Include="Drawing Tools\Add events to newly drawn shapes.html" />
     <Content Include="Drawing Tools\DrawingTools_Basic.html" />
     <Content Include="Drawing Tools\DrawingTools_Clear.html" />
     <Content Include="Drawing Tools\DrawingTools_CustomExitButton.html" />
     <Content Include="Drawing Tools\DrawingTools_CustomToolbar.html" />
     <Content Include="Drawing Tools\DrawingTools_EditExistingPolygon.html" />
+    <Content Include="Drawing Tools\DrawingTools_ShapeMetadata.html" />
     <Content Include="Drawing Tools\DrawingTools_TogglePolygonEdit.html" />
     <Content Include="Drawing Tools\DrawingTools_CreateShape.html" />
     <Content Include="Drawing Tools\DrawingTools_Events.html" />
     <Content Include="Drawing Tools\DrawingTools_GetDrawnShapes.html" />
     <Content Include="Drawing Tools\DrawingTools_MeasuringTape.html" />
+    <Content Include="Drawing Tools\Restrict drawing to Polygon area.html" />
+    <Content Include="Experimental\Snap drawing to pushpins.html" />
     <Content Include="Events\Events_BasicMapEvents.html" />
     <Content Include="Events\Events_RightClickShapes.html" />
     <Content Include="Autosuggest\Autosuggest_EnterKeyPress.html" />
@@ -96,28 +108,69 @@
     <Content Include="Directions\Directions_SnapWaypoint.html" />
     <Content Include="Events\Events_CustomFreeHandDrawing.html" />
     <Content Include="Events\Events_MapViewEvents.html" />
+    <Content Include="Events\Single vs Double Click.html" />
+    <Content Include="Experimental\MapImageGenerator\BingLogoDark.png" />
+    <Content Include="Experimental\MapImageGenerator\BingLogoLight.png" />
+    <Content Include="Experimental\MapImageGenerator\Map Image Generator.html" />
+    <Content Include="GeoJSON\GeoJson Shape Events.html" />
+    <Content Include="GeoXml - Private\data\georss\Countries.xml" />
+    <Content Include="GeoXml - Private\data\georss\SampleGeoRSS.xml" />
+    <Content Include="GeoXml - Private\data\georss\WifiLocations.xml" />
+    <Content Include="GeoXml - Private\data\gpx\BikeRoute.xml" />
+    <Content Include="GeoXml - Private\data\gpx\Route66Attractions.xml" />
+    <Content Include="GeoXml - Private\data\gpx\Tourist_locations_UK-England.xml" />
+    <Content Include="GeoXml - Private\data\kml\esfr-trip-track-20080407.xml" />
+    <Content Include="GeoXml - Private\GeoXml - Cross Domain\GeoXml - Cross Domain.html" />
+    <Content Include="GeoXml - Private\GeoXml - Drag and Drop.html" />
+    <Content Include="GeoXml - Private\GeoXmlLayer - Local Data.html" />
+    <Content Include="GeoXml - Private\GeoXmlLayer - Basic.html" />
+    <Content Include="Ground Overlays - Private\Basic Ground Overlay.html" />
+    <Content Include="Ground Overlays - Private\Ground Overlay Options.html" />
+    <Content Include="Ground Overlays - Private\SVG Ground Overlay.html" />
     <Content Include="Layers\View Shape Metadata.html" />
     <Content Include="Experimental\Map_WithAngular1.html" />
     <Content Include="Experimental\AnimatedTileLayer_Opacity.html" />
     <Content Include="ExternalSamples.html" />
     <Content Include="Layers\Limit Layer to Zoom Range.html" />
     <Content Include="Map\Full Screen Map.html" />
+    <Content Include="Map\Map Localization\Map Localization.html" />
+    <Content Include="Map\Map Localization\IframableLocalizedMap.html" />
+    <Content Include="Map\Localize the Map %28zh-CN%29.html" />
+    <Content Include="Map\Localize the Map %28en-GB%29.html" />
+    <Content Include="Map\Localize the Map %28fr-FR%29.html" />
     <Content Include="Map\Map in liteMode.html" />
+    <Content Include="Map\Map Pan Buttons.html" />
+    <Content Include="Birdseye\Map View Automatic Transition.html" />
+    <Content Include="Map\New Map Styles.html" />
+    <Content Include="Map\Streetside - Look At Location.html" />
+    <Content Include="Other\Solar Terminator\Solar Terminator.html" />
+    <Content Include="Pushpins\Image Sprite Pushpins using a Canvas.html" />
+    <Content Include="Pushpins\images\PushpinSprite.png" />
+    <Content Include="Pushpins\Pushpin Bar Chart %28inline SVG%29.html" />
+    <Content Include="Polylines\Polyline Simple Label.html" />
     <Content Include="Pushpins\images\blueSquare.png" />
     <Content Include="Experimental\Pushpin_RestrictedDrag.html" />
     <Content Include="Map\Custom Navigation Bar.html" />
     <Content Include="Modules\DraggableShapes\Modules_DraggableShapeManager.html" />
     <Content Include="Other\Create Pushpin Add Metadata.html" />
     <Content Include="ExternalSamples.js" />
+    <Content Include="Pushpins\Inline SVG Pushpin Template.html" />
+    <Content Include="Spatial Data Services\Find all counties that intersect a line.html" />
+    <Content Include="Tools\SVG Pushpin Maker\SVG Pushpin Maker.css" />
+    <Content Include="Tools\SVG Pushpin Maker\SVG Pushpin Maker.html" />
+    <Content Include="Tools\SVG Pushpin Maker\SVGPushpinTemplates.js" />
+    <Content Include="Pushpins\V7 SVG Pushpin Template.html" />
     <Content Include="Rest Services\RestServices_MultipleRoutes.html" />
     <Content Include="Spatial Data Services\Multiple GeoData Entity Type Boundaries.html" />
-    <Content Include="Spatial Math\Core\SpatialMath_DrawCircle.html" />
-    <Content Include="Map\Map_KeyEvents.html" />
+    <Content Include="Spatial Data Services\QueryAPI - Load all results %28recursive%29.html" />
+    <Content Include="Spatial Data Services\QueryAPI - Load all results %28parallel%29.html" />
+    <Content Include="Spatial Math\Draw Circle with mouse.html" />
+    <Content Include="Map\Map Key Events.html" />
     <Content Include="Other\North Carolina Map.html" />
     <Content Include="Layers\Layer_zIndexSwap.html" />
-    <Content Include="Map\Map_ContextMenu.html" />
+    <Content Include="Map\Context Menu.html" />
     <Content Include="Map\Dispose Map.html" />
-    <Content Include="Map\Map_LazyLoading.html" />
+    <Content Include="Map\Lazy Loading the Map.html" />
     <Content Include="Map\Override Mouse Wheel Zoom.html" />
     <Content Include="Other\Netherlands\Netherlands Census Map.html" />
     <Content Include="Pushpins\Pushpin_Scaled.html" />
@@ -129,7 +182,7 @@
     <Content Include="GeoJSON\GeoJson_Write.html" />
     <Content Include="Infobox\Infobox_Events.html" />
     <Content Include="Layers\Layers_zIndex.html" />
-    <Content Include="Map\Map_Resize.html" />
+    <Content Include="Map\Resize the Map.html" />
     <Content Include="Map\Reusable Map.html" />
     <Content Include="Pushpins\Pushpin_Colors.html" />
     <Content Include="Pushpins\images\ssMap.png" />
@@ -147,21 +200,25 @@
     <Content Include="Rest Services\RestServices_ElevationProfiles.html" />
     <Content Include="Rest Services\RestServices_jQuery.html" />
     <Content Include="Rest Services\RestServices_JSONP.html" />
-    <Content Include="Spatial Math\Core\SpatialMath_AccuracyCircle.html" />
-    <Content Include="Spatial Math\Core\SpatialMath_CardinalSplineFeatures.html" />
-    <Content Include="Spatial Math\Core\SpatialMath_CardinalSplines.html" />
-    <Content Include="Spatial Math\Core\SpatialMath_Circles.html" />
-    <Content Include="Spatial Math\Geometry\SpatialMath_BinaryOperations.html" />
-    <Content Include="Spatial Math\Tile Math\SpatialMath_QuadkeyLocator.html" />
-    <Content Include="Spatial Math\Tile Math\SpatialMath_TileMathExample.html" />
+    <Content Include="Spatial Math\Select line segment of Polyline.html" />
+    <Content Include="Tile Layers\Image Overlay Tile Layer.html" />
+    <Content Include="User Location\User Location Accuracy Circle.html" />
+    <Content Include="Spatial Math\Cardinal Spline Features.html" />
+    <Content Include="Spatial Math\Cardinal Splines - Basic.html" />
+    <Content Include="Spatial Math\Create Circles using Spatial Math.html" />
+    <Content Include="Spatial Math\Calculate Distance From Route.html" />
+    <Content Include="Spatial Math\Sptial Math Binary Operations.html" />
+    <Content Include="Spatial Math\Quadkey Locator.html" />
+    <Content Include="Spatial Math\Tile Math Examples.html" />
+    <Content Include="Test Data Generator\Generate Pushpins within a Polygon.html" />
     <Content Include="Test Data Generator\TestDataGenerator_CreatePolygons.html" />
     <Content Include="Test Data Generator\TestDataGenerator_CreatePolylines.html" />
     <Content Include="Test Data Generator\TestDataGenerator_CreatePushpins.html" />
     <Content Include="Tile Layers\TileLayer_BaseMercator.html" />
     <Content Include="Tile Layers\TileLayer_WMS.html" />
     <Content Include="Traffic\Traffic - Custom Legend.html" />
-    <Content Include="User Location\UserLocation_Basic.html" />
-    <Content Include="User Location\UserLocation_Continuous.html" />
+    <Content Include="User Location\Basic User Location.html" />
+    <Content Include="User Location\Continuous User Location.html" />
     <Content Include="Heatmap Layers\Heatmap_Features.html" />
     <Content Include="Heatmap Layers\Heatmap_Basic.html" />
     <Content Include="Heatmap Layers\Heatmap_Customized.html" />
@@ -177,10 +234,9 @@
     <Content Include="Layers\Layer_Basic.html" />
     <Content Include="Layers\Layer_Events.html" />
     <Content Include="Map\Load Map Async.html" />
-    <Content Include="Map\Load Map.html" />
-    <Content Include="Map\Map_Events.html" />
-    <Content Include="Map\Map_SetView.html" />
-    <Content Include="Map\Map_Streetside.html" />
+    <Content Include="Map\Map Events.html" />
+    <Content Include="Map\Set Map View.html" />
+    <Content Include="Map\Streetside - Basic.html" />
     <Content Include="Modules\GpxModule\GpxModule_WithMetadata.html" />
     <Content Include="Modules\GpxModule\data\gps_points.xml" />
     <Content Include="Modules\GpxModule\GPXParserModule.js" />
@@ -189,8 +245,8 @@
     <Content Include="PointCompression\PointCompression.html" />
     <Content Include="Polygons\Polygon_Events.html" />
     <Content Include="Polygons\Polygon_WithHole.html" />
-    <Content Include="Polylines\Polyline_Basics.html" />
-    <Content Include="Polylines\Polyline_Events.html" />
+    <Content Include="Polylines\Polyline Basics.html" />
+    <Content Include="Polylines\Polyline Events.html" />
     <Content Include="Pushpins\images\TransparentPushpin.png" />
     <Content Include="Pushpins\Pushpin_Base64Icon.html" />
     <Content Include="Pushpins\Pushpin_Base64IconFromCanvas.html" />
@@ -211,10 +267,10 @@
     <Content Include="Spatial Data Services\QueryAPI_FindByProperty.html" />
     <Content Include="Spatial Data Services\QueryAPI_Intersection.html" />
     <Content Include="Spatial Data Services\QueryAPI_Paging.html" />
-    <Content Include="Spatial Data Services\QueryAPI_Nearby.html" />
+    <Content Include="Spatial Data Services\Find Nearby Search - Query API.html" />
     <Content Include="Spatial Data Services\QueryAPI_SortByDrivingDistance.html" />
     <Content Include="Search\Geocode_SearchResults.html" />
-    <Content Include="Spatial Math\Core\SpatialMath_Basics.html" />
+    <Content Include="Spatial Math\Basics Spatial Math Functions.html" />
     <Content Include="Tile Layers\TileLayer_Quadkey.html" />
     <Content Include="Tile Layers\TileLayer_XYZoom.html" />
     <Content Include="Traffic\Traffic_Basic.html" />
@@ -225,7 +281,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GeoJSON\GeoJson_BasicWithStyle.html" />
-    <Content Include="GeoJSON\GeoJson_LocalFile.html" />
+    <Content Include="GeoJSON\GeoJson Drag and Drop.html" />
     <Content Include="GeoJSON\GeoJson_Jsonp.html" />
     <Content Include="Pushpins\images\cylinder.svg" />
     <Content Include="Polygons\Polygon_Basic.html" />
@@ -246,6 +302,9 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GeoXml - Private\GeoXml - Cross Domain\GeoXmlProxyService.ashx.cs">
+      <DependentUpon>GeoXmlProxyService.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -261,6 +320,7 @@
     <TypeScriptCompile Include="Clustering\SpiderClusters\SpiderClusterManager.ts" />
     <TypeScriptCompile Include="Custom Overlays\CanvasLayer\CanvasOverlayModule.ts" />
     <TypeScriptCompile Include="Custom Overlays\HtmlPushpinLayer\HtmlPushpinLayerModule.ts" />
+    <TypeScriptCompile Include="Experimental\MapImageGenerator\MapImageGeneratorModule.ts" />
     <TypeScriptCompile Include="Modules\DraggableShapes\DraggableShapesModule.ts" />
     <TypeScriptCompile Include="Common\typings\MicrosoftMaps\Microsoft.Maps.All.d.ts" />
     <TypeScriptCompile Include="Common\typings\MicrosoftMaps\Microsoft.Maps.d.ts" />
@@ -278,11 +338,19 @@
     <TypeScriptCompile Include="Common\typings\MicrosoftMaps\Modules\Traffic.d.ts" />
     <TypeScriptCompile Include="Common\typings\MicrosoftMaps\Modules\WellKnownText.d.ts" />
     <Content Include="Spatial Data Services\data\US_State_Literacy.tsv" />
+    <TypeScriptCompile Include="Other\Solar Terminator\SolarTerminatorModule.ts" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GeoJSON\Data\US_Counties.json" />
+    <None Include="GeoJSON\Data\US_County_Boundaries.json" />
     <Content Include="Rest Services\RestServices_Angular1.6.html" />
     <Content Include="packages.config" />
+    <Content Include="GeoXml - Private\GeoXml - Cross Domain\GeoXmlProxyService.ashx" />
+    <Content Include="GeoXml - Private\data\kml\internet_users_2005_choropleth.kml" />
+    <Content Include="GeoXml - Private\data\kml\GroundOverlay.kml" />
+    <Content Include="GeoXml - Private\data\kml\Countries.kml" />
+    <Content Include="GeoXml - Private\data\kmz\FemaRegionsandFieldOffices.kmz" />
+    <Content Include="GeoXml - Private\data\kmz\shuckstack-fire-tower.kmz" />
+    <Content Include="GeoXml - Private\data\kmz\RecreationSitePoint.kmz" />
     <None Include="Properties\PublishProfiles\BingMapsV8Samples - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\BingMapsV8Samples - Web Deploy.pubxml" />
   </ItemGroup>
@@ -308,11 +376,10 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Common\scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -329,7 +396,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>5479</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5479/</IISUrl>
+          <IISUrl>http://localhost:5478/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

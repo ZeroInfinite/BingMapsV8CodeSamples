@@ -6,8 +6,10 @@
     <script type='text/javascript'>
     //Source: http://www.nws.noaa.gov/gis/services.html 
 
+    var map;
+
     function GetMap() {
-        var map = new Microsoft.Maps.Map('#myMap', {
+        map = new Microsoft.Maps.Map('#myMap', {
             credentials: YourBingMapsKey,
             center: new Microsoft.Maps.Location(40, -99),
             zoom: 4
@@ -25,10 +27,16 @@
         map.layers.insert(NOAAWeatherRadar);
     }
     </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
     <script type='text/javascript' src='/BingMapsCredentials.js'></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
+
+    <fieldset style="width:600px;margin-top:10px;">
+        <legend>TileLayer - WMS Sample</legend>
+        This sample shows how to create a simple tile layer which points to a Web Mapping Services (WMS) which generates images for requested bounding boxes.
+        The data in this sample comes from the <a href="http://www.nws.noaa.gov/gis/services.html">NOAA Base Reflective Weather Radar WMS service</a>.
+    </fieldset>
 </body>
 </html>

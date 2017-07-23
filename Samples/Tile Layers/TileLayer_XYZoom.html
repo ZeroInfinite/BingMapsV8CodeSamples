@@ -22,10 +22,16 @@
         map.layers.insert(weatherTileLayer);
     }
     </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
     <script type='text/javascript' src='/BingMapsCredentials.js'></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
+
+    <fieldset style="width:600px;margin-top:10px;">
+        <legend>TileLayer - X/Y/Zoom Sample</legend>
+        This sample shows how to create a simple tile layer which points to a set of tiles which use the x, y, zoom tiling system. 
+        The source of this tile layer is a weather radar overlay from the <a href="http://mesonet.agron.iastate.edu/ogc/">Iowa Environmental Mesonet of Iowa State University</a>.
+    </fieldset>
 </body>
 </html>
